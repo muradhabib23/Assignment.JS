@@ -33,9 +33,9 @@ function brickCalculator(floor){
         totalFeet = 10*15 + 10*12 + (floor-20)*10;
     }
     var totalBrick = totalFeet*1000;
-    return totalBrick
+    return totalBrick;
 }
-console.log(brickCalculator(15));
+console.log(brickCalculator());
 
 //tinyFriend
 function tinyFriend(names){
